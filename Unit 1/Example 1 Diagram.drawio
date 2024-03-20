@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2024-02-20T13:55:24.575Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="LIrWKiDwHgJBgpB8lGSK" version="23.1.4" type="device">
+  <diagram name="Page-1" id="riNPvcEETXcCXBRF5EBT">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rdKQDhtNpKf0THxrRIPu-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zwc7MB9d2gIerpjl3Neg-2" target="rdKQDhtNpKf0THxrRIPu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zwc7MB9d2gIerpjl3Neg-2" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rdKQDhtNpKf0THxrRIPu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rdKQDhtNpKf0THxrRIPu-2" target="rdKQDhtNpKf0THxrRIPu-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rdKQDhtNpKf0THxrRIPu-2" value="Prompt user to input&amp;nbsp; the a, b, and c values" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdKQDhtNpKf0THxrRIPu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rdKQDhtNpKf0THxrRIPu-4" target="rdKQDhtNpKf0THxrRIPu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rdKQDhtNpKf0THxrRIPu-4" value="Calculate the value of the discriminant using:&amp;nbsp;(b^2) - (4*a*c)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rdKQDhtNpKf0THxrRIPu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rdKQDhtNpKf0THxrRIPu-6" target="rdKQDhtNpKf0THxrRIPu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rdKQDhtNpKf0THxrRIPu-6" value="Check to see if the value of the discriminant is positive, 0, or negative" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rdKQDhtNpKf0THxrRIPu-8" value="Output to the user 2 if positive, 1 if 0, 0 if negative" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
