@@ -10,10 +10,9 @@ public class U2_2_E1 {
         read.close();
 
         int sign = equation.indexOf('+');
-        int num1 = Integer.parseInt(equation.charAt(sign - 1));
-        int num2 = (int)equation.charAt(sign + 1);
-        System.out.print(sign);
+        int num1 = Integer.parseInt(String.valueOf(equation.charAt(sign - 1)));
+        int num2 = Integer.parseInt(String.valueOf(equation.charAt(sign + 1)));
         int answer = num1 + num2;
         System.out.println(answer);
     }
-}                                                                                  
+}
