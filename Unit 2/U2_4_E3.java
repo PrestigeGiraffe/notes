@@ -24,7 +24,7 @@ public class U2_4_E3 {
         for (int x = 0; x < dice.length; x++) { // loops through each array of dice
             for (int y = 0; y < dice[x].length; y++) { // loops through each value of each array in dice
                 if (dice[x][y] == sum && x != 0 && y != 0) {
-                    System.out.printf("(%d, %d), ", x, y);
+                    System.out.printf("(%d, %d) ", x, y); // print the dice values that add to that sum
                 }
             }
         }
